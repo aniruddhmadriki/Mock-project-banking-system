@@ -1,0 +1,63 @@
+2022-11-02 20:28:12.362  INFO 11392 --- [main] com.demo.spring.ApiGatewayApplication    : Starting ApiGatewayApplication using Java 17.0.3 on WKWIN1534149 with PID 11392 (C:\Mock-project\Banking-System\api-gateway\target\classes started by animadri in C:\Mock-project\Banking-System\api-gateway)
+2022-11-02 20:28:12.369  INFO 11392 --- [main] com.demo.spring.ApiGatewayApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-11-02 20:28:13.298  INFO 11392 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=22006bed-545a-329b-acf1-5e0700175d2a
+2022-11-02 20:28:13.371  INFO 11392 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-02 20:28:13.373  INFO 11392 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-02 20:28:13.374  INFO 11392 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-02 20:28:14.442  INFO 11392 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2022-11-02 20:28:14.443  INFO 11392 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2022-11-02 20:28:14.443  INFO 11392 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2022-11-02 20:28:14.443  INFO 11392 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2022-11-02 20:28:14.443  INFO 11392 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2022-11-02 20:28:14.443  INFO 11392 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2022-11-02 20:28:14.443  INFO 11392 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2022-11-02 20:28:14.443  INFO 11392 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2022-11-02 20:28:14.444  INFO 11392 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2022-11-02 20:28:14.444  INFO 11392 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2022-11-02 20:28:14.444  INFO 11392 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2022-11-02 20:28:14.444  INFO 11392 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-11-02 20:28:14.445  INFO 11392 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2022-11-02 20:28:14.445  INFO 11392 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-11-02 20:28:15.280  INFO 11392 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-11-02 20:28:15.441  INFO 11392 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-11-02 20:28:15.497  WARN 11392 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-11-02 20:28:15.549  INFO 11392 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-11-02 20:28:15.588  INFO 11392 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-11-02 20:28:15.593  INFO 11392 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-02 20:28:15.616  INFO 11392 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-11-02 20:28:15.616  INFO 11392 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-11-02 20:28:15.617  INFO 11392 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-11-02 20:28:15.617  INFO 11392 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-11-02 20:28:15.617  INFO 11392 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-11-02 20:28:15.617  INFO 11392 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-11-02 20:28:15.617  INFO 11392 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-11-02 20:28:15.985  INFO 11392 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-11-02 20:28:15.991  INFO 11392 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-11-02 20:28:15.996  INFO 11392 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-11-02 20:28:16.007  INFO 11392 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1667401096006 with initial instances count: 0
+2022-11-02 20:28:16.008  INFO 11392 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application API-GATEWAY with eureka with status UP
+2022-11-02 20:28:16.009  INFO 11392 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1667401096009, current=UP, previous=STARTING]
+2022-11-02 20:28:16.011  INFO 11392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/WKWIN1534149.global.publicisgroupe.net:api-gateway:8185: registering service...
+2022-11-02 20:28:16.118  INFO 11392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/WKWIN1534149.global.publicisgroupe.net:api-gateway:8185 - registration status: 204
+2022-11-02 20:28:16.271  INFO 11392 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8185
+2022-11-02 20:28:16.272  INFO 11392 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8185
+2022-11-02 20:28:16.884  INFO 11392 --- [main] com.demo.spring.ApiGatewayApplication    : Started ApiGatewayApplication in 5.171 seconds (JVM running for 5.83)
+2022-11-02 20:28:46.010  INFO 11392 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-11-02 20:28:46.011  INFO 11392 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-11-02 20:28:46.011  INFO 11392 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-11-02 20:28:46.011  INFO 11392 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-11-02 20:28:46.011  INFO 11392 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-11-02 20:28:46.011  INFO 11392 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2022-11-02 20:28:46.011  INFO 11392 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-11-02 20:28:46.021  INFO 11392 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-11-02 20:33:15.646  INFO 11392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-02 20:38:15.668  INFO 11392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-02 20:42:09.456  INFO 11392 --- [RMI TCP Connection(24)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-11-02 20:42:09.457  INFO 11392 --- [RMI TCP Connection(24)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application API-GATEWAY with eureka with status DOWN
+2022-11-02 20:42:09.457  INFO 11392 --- [RMI TCP Connection(24)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1667401929457, current=DOWN, previous=UP]
+2022-11-02 20:42:09.457  INFO 11392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/WKWIN1534149.global.publicisgroupe.net:api-gateway:8185: registering service...
+2022-11-02 20:42:09.463  INFO 11392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/WKWIN1534149.global.publicisgroupe.net:api-gateway:8185 - registration status: 204
+2022-11-02 20:42:11.487  INFO 11392 --- [RMI TCP Connection(24)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-11-02 20:42:14.503  INFO 11392 --- [RMI TCP Connection(24)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-11-02 20:42:14.509  INFO 11392 --- [RMI TCP Connection(24)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/WKWIN1534149.global.publicisgroupe.net:api-gateway:8185 - deregister  status: 200
+2022-11-02 20:42:14.564  INFO 11392 --- [RMI TCP Connection(24)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
